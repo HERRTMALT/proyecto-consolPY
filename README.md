@@ -22,13 +22,16 @@
 - Instalacion:
 	1. Descargar Git desde https://git-scm.com/downloads.
 	2. Instalarlo dejando las opciones que aparecen por defecto.
-	3. Abrir PowerShell o Git Bash y comprobar la instalacion:
-		 `git --version`
+	3. buscar una nueva aplicacion llamada "git bash"
 
 - Configuracion inicial (solo una vez):
 	```bash
 	git config --global user.name "Tu nombre"
 	git config --global user.email "tu-correo@example.com"
+ 	"git config --global core.editor "code --wait""
+ 	"git config --global init.defaultBranch main"
+ 	"git config --global color.ui auto"
+ 	"git config --global pull.rebase false"
 	```
 
 - Comandos principales:
