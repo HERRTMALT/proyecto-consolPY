@@ -28,10 +28,10 @@
 	```bash
 	git config --global user.name "Tu nombre"
 	git config --global user.email "tu-correo@example.com"
- 	"git config --global core.editor "code --wait""
- 	"git config --global init.defaultBranch main"
- 	"git config --global color.ui auto"
- 	"git config --global pull.rebase false"
+ 	git config --global core.editor "code --wait"
+ 	git config --global init.defaultBranch main
+ 	git config --global color.ui auto
+ 	git config --global pull.rebase false
 	```
 
 - Comandos principales:
