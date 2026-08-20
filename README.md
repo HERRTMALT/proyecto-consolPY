@@ -50,3 +50,40 @@
 	git commit -m "Mi cambio"
 	git push
 	```
+
+ ---
+
+ ## Instalacion de los modulos de Python
+
+1. Abrir la terminal de VS Code con `Ctrl + Ñ`.
+2. Comprobar que Python esta instalado:
+
+	```bash
+	python --version
+	```
+
+	Si aparece la version de Python, continuar. Si aparece un error, descargar Python desde https://www.python.org/downloads/ y durante la instalacion marcar la opcion **Add Python to PATH**.
+
+3. Comprobar que `pip` esta instalado:
+
+	```bash
+	python -m pip --version
+	```
+
+4. Instalar los modulos `pandas` y `mysql-connector-python`:
+
+	```bash
+	python -m pip install pandas mysql-connector-python
+	```
+
+5. Comprobar que los modulos funcionan correctamente:
+
+	```bash
+	python -c "import pandas; import mysql.connector; print('Modulos instalados correctamente')"
+	```
+
+Si `pip` no funciona, ejecutar primero:
+
+```bash
+python -m ensurepip --upgrade
+```
