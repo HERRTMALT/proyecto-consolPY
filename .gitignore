@@ -1,0 +1,34 @@
+# Entorno virtual de Python
+.venv/
+venv/
+env/
+
+# Archivos generados por Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuracion local y datos sensibles
+.env
+.env.*
+!.env.example
+
+# Archivos temporales y de pruebas
+*.log
+*.tmp
+*.temp
+
+# Configuracion local de VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos generados por analisis de datos
+*.csv
+*.xlsx
+*.db
+*.sqlite3
