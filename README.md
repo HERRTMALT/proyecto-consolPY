@@ -17,6 +17,18 @@
 
 ---
 
+## Herramientas que se utilizaran
+
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)](https://git-scm.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/)
+[![mysql--connector--python](https://img.shields.io/badge/mysql--connector--python-4479A1?logo=mysql&logoColor=white)](https://pypi.org/project/mysql-connector-python/)
+[![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
+
+---
+
 ## comandos de git utiles para hacer el proyecto
 
 - Instalacion:
