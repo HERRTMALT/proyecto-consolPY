@@ -74,6 +74,22 @@ while ejecucion != '0':
                     print(f'\n----------------------------\nSe insertaron los datos en la tabla "{table}".\n----------------------------\n')
 
                 except Exception as error:print(f'\n----------------------------\nError: {error}.\n----------------------------\n')
+            def update_query():
+                try:
+                    añadir_valores = input('----------------------------\ningrese los valores a modificar separados por comas.\n- Valores: ').strip()
+                    condicion = input('----------------------------\ningrese la condicion para modificar los datos.\n- Condicion: ').strip()
+                    cursor.execute(f'UPDATE {table} SET {añadir_valores} WHERE {condicion}')
+                    conexion.commit()
+                    print(f'\n----------------------------\nSe modificaron los datos en la tabla "{table}".\n----------------------------\n')
+                except Exception as error:print(f'\n----------------------------\nError: {error}.\n----------------------------\n')
+
+            def delete_query():
+                try:
+                    condicion = input('----------------------------\ningrese la condicion para borrar los datos.\n- Condicion: ').strip()
+                    cursor.execute(f'DELETE FROM {table} WHERE {condicion}')
+                    conexion.commit()
+                    print(f'\n----------------------------\nSe borraron los datos en la tabla "{table}".\n----------------------------\n')
+                except Exception as error:print(f'\n----------------------------\nError: {error}.\n----------------------------\n')
 
         select_query()
 
